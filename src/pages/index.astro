@@ -8,46 +8,40 @@ const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
-const cactusTech: { desc: string; href: string; title: string }[] = [
+const cactusTech: { desc: string; href?: string; title: string }[] = [
 	{
-		desc: "Build fast websites, faster.",
-		href: "https://astro.build",
-		title: "Astro",
+		desc: "Impeller, FFI, Packages, Canvas, Build runner, Routing, Widgets, Context",
+		href: "https://flutter.dev/",
+		title: "Flutter",
 	},
 	{
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
+		desc: "Events, State management, Reactive programming, When",
+		href: "https://bloclibrary.dev/",
+		title: "BLoC",
+	},
+	{
+		desc: "Signals, DI, Services, Standalone, Components, Lazy loading, Webpack",
+		href: "https://angular.io/",
+		title: "Angular",
+	},
+	{
+		desc: "Observable, Subject, Subscription, Scheduler, Operators, MergeMap",
+		href: "https://rxjs.dev/",
+		title: "RxJS",
+	},
+	{
+		desc: "CSS, Minify, Classes",
 		href: "https://tailwindcss.com",
 		title: "Tailwind CSS",
 	},
 	{
-		desc: "Simple and easy-to-use markup language.",
-		href: "https://www.markdownguide.org/",
-		title: "Markdown",
+		desc: "Rebase, Branch, Commit, Merge",
+		href: "https://git-scm.com/",
+		title: "Git",
 	},
 	{
-		desc: "Markdown for the component era.",
-		href: "https://mdxjs.com/",
-		title: "MDX",
-	},
-	{
-		desc: "Generating png Open Graph images for blog posts.",
-		href: "https://github.com/vercel/satori",
-		title: "Satori",
-	},
-	{
-		desc: "A fully static search library.",
-		href: "https://pagefind.app/",
-		title: "Pagefind",
-	},
-	{
-		desc: "An easy to use Icon component for Astro.",
-		href: "https://github.com/natemoo-re/astro-icon#readme",
-		title: "Astro Icon",
-	},
-	{
-		desc: "Highly customisable source code & syntax highlighter",
-		href: "https://expressive-code.com/",
-		title: "Expressive Code",
+		desc: "Jira, Agile, SCRUM, And more...",
+		title: "And more",
 	},
 ];
 ---
@@ -56,9 +50,18 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 	<section>
 		<h1 class="title mb-6">Hello World!</h1>
 		<p class="mb-4">
-			Hi, I’m a theme for Astro, an example of how you can use this starter to create a personal
-			blog. If you want to know more about how you can customise me, add more posts, and make it
-			your own, click on the github icon link below and it will take you to my repo.
+			I am Andrea Gullì, i've been working in frontend development since 2018, and in 2020, I
+			decided to delve into mobile development as well. I've been using Flutter since version 1.2.x
+			and Angular since version 6 (naturally, I've kept up with updates since then). Additionally, I
+			have a passion for nutrition, and I've developed <span class="inline-flex"
+				><a
+					class="cactus-link"
+					href="https://zyme-nutrition.netlify.app/en"
+					rel="noopener noreferrer"
+					target="_blank"
+					>ZYME
+				</a></span
+			>, a calorie tracking app available on android and iOS.
 		</p>
 		<SocialList />
 	</section>
@@ -75,7 +78,7 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 		</ul>
 	</section>
 	<section class="mt-16">
-		<h2 class="title mb-4 text-xl">Technologies</h2>
+		<h2 class="title mb-4 text-xl">Technologies & Buzzwords</h2>
 		<dl class="space-y-4">
 			{
 				cactusTech.map(({ desc, href, title }) => (
