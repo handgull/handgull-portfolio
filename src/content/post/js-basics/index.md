@@ -177,5 +177,61 @@ const greetings = () => console.log('hello')
 greetings();
 ```
 
-## Programmazione funzionale: map
+## Array: map
+ES6 fornisce una nuova serie di metodi per lavorare gli array: map in particolare ci permette di creare una nuova collezione a partire da un array.
+
+```js
+const users = [
+  {"id": 1, "name": "Silvia", "age": 2, "gender": "F", city: "Gorizia"},
+  {"id": 2, "name": "Fabio", "age": 40, "gender": "M", city: "Trieste"},
+  {"id": 3, "name": "Lorenzo", "age": 6, "gender": "M", city: "Pordenone"},
+  {"id": 4, "name": "Lisa", "age": 40, "gender": "F", city: "Gorizia"}
+];
+
+const newList = users.map(user => `${user.name} (${user.age})`)
+console.log(newList);
+
+/*  output
+[
+  "Silvia (2)",
+  "Fabio (40)",
+  "Lorenzo (6)",
+  "Lisa (40)"
+]
+*/
+```
+
+> Possiamo anche avere traccia dell'indice dell'elemento che si stà processando mettendo un secondo parametro dopo user
+
+
+```js
+const newList = users.map((user, index) => `${user.name} (${index})`);
+```
+
+## Array: filter
+Crea un array partendo da un altro array andando a capire tramite un predicato (una funzione passata come argomento) se l'elemento deve essere presente o meno nel nuovo array.
+
+```js
+const users = [
+  {"id": 1, "name": "Silvia", "age": 2, "gender": "F", city: "Gorizia"},
+  {"id": 2, "name": "Fabio", "age": 40, "gender": "M", city: "Trieste"},
+  {"id": 3, "name": "Lorenzo", "age": 6, "gender": "M", city: "Pordenone"},
+  {"id": 4, "name": "Lisa", "age": 40, "gender": "F", city: "Gorizia"}
+];
+
+
+const newList = users.filter(user => user.age > 18)
+                     .map(user => user.id)
+
+console.log(newList);
+
+/** output
+[
+  2,
+  4
+]
+*/
+```
+
+## Array: find e findIndex
 WIP
