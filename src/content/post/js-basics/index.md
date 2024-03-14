@@ -234,4 +234,66 @@ console.log(newList);
 ```
 
 ## Array: find e findIndex
-WIP
+findIndex permette tramite una funzione di andare a recuperare l'indice di un elemento della collezione, mentre find restituisce l'oggetto.
+
+
+```js
+const users = [
+  {"id": 1, "name": "Silvia", "age": 2, "gender": "F", city: "Gorizia"},
+  {"id": 2, "name": "Fabio", "age": 40, "gender": "M", city: "Trieste"},
+  {"id": 3, "name": "Lorenzo", "age": 6, "gender": "M", city: "Pordenone"},
+  {"id": 4, "name": "Lisa", "age": 40, "gender": "F", city: "Gorizia"}
+];
+
+const userIndex = users.findIndex(user => user.id === 3);
+console.log(userIndex) // 2
+```
+
+## Immutabilità in ES6
+
+```js
+const users = [
+  {"id": 10, "name": "Silvia", "age": 2, "gender": "F", city: "Gorizia"},
+  {"id": 20, "name": "Fabio", "age": 40, "gender": "M", city: "Trieste"},
+  {"id": 30, "name": "Lorenzo", "age": 6, "gender": "M", city: "Pordenone"},
+  {"id": 40, "name": "Lisa", "age": 40, "gender": "F", city: "Gorizia"}
+];
+
+// add
+const user = { id: 50, name: 'Mario' };
+let newList = [...users, user ]
+
+// delete
+const ID = 40;
+newList = users.filter(u => u.id !== ID )
+
+// edit
+const updatedUser = { id: 20, name: 'Ciccio', age: 25 }
+newList = users.map(u => u.id === updatedUser.id ? {...u, ...updatedUser} : u)
+
+console.log(newList)
+```
+
+## Classi, Ereditarietà e lexical this
+Il concetto di classe è stato introdotto da ES6, naturalmente con babel in transpilazione ad ES5 le classi vengono tradotte in funzioni
+
+```js
+class Pippo {
+  text = 'Ciao';
+
+  constructor() {    
+    setTimeout(() => {
+      console.log(this.text); // Se non avessi usato l'arrow function sarebbe stato undefined
+    }, 2000)
+  }
+
+  hello(value) {
+    console.log(this.text + ' ' + value);
+  }
+}
+
+const p = new Pippo();
+p.hello('Fabio'); // Ciao Fabio
+```
+
+> Per ovviare al problema del this nelle funzioni un'altro metodo valido è usare `.bind(this)`
