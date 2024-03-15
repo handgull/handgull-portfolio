@@ -297,3 +297,60 @@ p.hello('Fabio'); // Ciao Fabio
 ```
 
 > Per ovviare al problema del this nelle funzioni un'altro metodo valido è usare `.bind(this)`
+
+## ES6: import modules e type="module"
+
+i moduli non sono nient'altro che file js con però il contesto del file isolato dal resto
+
+```html
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Demo ES6</title>
+</head>
+
+<script type="module" src="utility.js"></script>
+<script type="module" src="main.js"></script>
+
+<body></body>
+</html>
+```
+
+```js title="utility.js"
+export const a = 1;
+
+export const add = (a, b) => {
+  return a + b;
+};
+
+export const divide = function (a, b) {
+  return a / b;
+};
+```
+
+```js title="main.js"
+import { a as newA, add } from './utility.js';
+
+console.log(add(newA, 2))
+```
+
+## import default
+
+```js title="main.js"
+import Panel, { Component } from './utility.js';
+
+const p = new Panel()
+```
+
+```js title="utility.js"
+export default class MyComponent { // posso avere solo 1 default per modulo
+  constructor() {
+    console.log(123)
+  }
+}
+
+export function Component (a, b) => a + b;
+```
+
+## Promises
+WIP
