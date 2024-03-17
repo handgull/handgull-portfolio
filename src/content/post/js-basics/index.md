@@ -353,6 +353,7 @@ export function Component (a, b) => a + b;
 ```
 
 ## Promises
+
 http://callbackhell.com
 
 Le promise ci permettono di risolvere il problema delle callback hell semplificando il codice. Le promise sono un intermediario tra la parte sincrona ed asincrona del nostro codice. Una promise può essere vista come un contenitore non dipendente dal tempo, si possono impostare in modo asincrono degli osservatori che tengono d'occhio il contenitore i quali riceveranno un valore appena disponibile.
@@ -375,4 +376,22 @@ p.then(
 > async await snelliscono la sintassi e spesso sono preferibili
 
 ## Typescript: cos'è
+
 typescript è un superset di js permette di tipizzare il codice, ad esempio creando una variabile String non potremo assegnargli un valore intero. Ha uno **static type system**, ovvero già in fase di compilazione verifica se il tipo di dato è conforme al tipo della variabile
+
+## Inferenza in typescript
+
+L'inferenza (in typescript come in altri linguaggi come dart) è la capacità di generare un tipo di una variabile partendo da un valore iniziale.
+
+```ts
+let a = 125;
+
+a = 'pippo'; // errore di compilazione
+
+// mai fare così
+let b; // non do un tipo a b, sarebbe un any
+// any va evitato il prima possibile
+
+// fare una tipizzazione esplicita
+let b: string;
+```
