@@ -353,4 +353,26 @@ export function Component (a, b) => a + b;
 ```
 
 ## Promises
-WIP
+http://callbackhell.com
+
+Le promise ci permettono di risolvere il problema delle callback hell semplificando il codice. Le promise sono un intermediario tra la parte sincrona ed asincrona del nostro codice. Una promise può essere vista come un contenitore non dipendente dal tempo, si possono impostare in modo asincrono degli osservatori che tengono d'occhio il contenitore i quali riceveranno un valore appena disponibile.
+
+```js
+const p = new Promise((resolve, reject) => {
+    setTimeout(() => resolve(5), 3000);
+});
+
+p.then(
+    () => new Promise((resolve, reject) => {
+        setTimeout(() => resolve(50), 3000);
+    })
+).then(
+    data => console.log(data)
+).catch(
+    err => console.log(err)
+);
+```
+> async await snelliscono la sintassi e spesso sono preferibili
+
+## Typescript: cos'è
+typescript è un superset di js permette di tipizzare il codice, ad esempio creando una variabile String non potremo assegnargli un valore intero. Ha uno **static type system**, ovvero già in fase di compilazione verifica se il tipo di dato è conforme al tipo della variabile
