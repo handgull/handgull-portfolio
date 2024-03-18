@@ -395,3 +395,15 @@ let b; // non do un tipo a b, sarebbe un any
 // fare una tipizzazione esplicita
 let b: string;
 ```
+
+## Tipizzare oggetti usando interface e gestione proprietà opzionali
+
+```ts
+interface User {
+  id: number;
+  name: string;
+  surname?: string; // proprietà opzionale
+}
+
+let user: User; // Inizializzo una variabile di tipo User
+```
