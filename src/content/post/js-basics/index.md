@@ -403,7 +403,52 @@ interface User {
   id: number;
   name: string;
   surname?: string; // proprietà opzionale
+  list: string[]; // array di stringhe
+  array: Array<string>; // stesso risultato usando le generics
 }
 
 let user: User; // Inizializzo una variabile di tipo User
 ```
+
+## Utilizzo di class e type per la tipizzazione
+
+Ci sono altre 2 possibilità per definire un tipo di dato:
+### class
+
+```ts
+class User {
+  constructor(private id: number, public name: string) {}
+}
+```
+
+### type
+
+```ts
+type User = {
+  id: number;
+  name: string;
+}
+
+type Role = 'admin' | 'guest'; // Union types
+```
+
+Quando usare uno o l'altro? Quando possibile usare le interface, anche perchè in fase di compilazione non pesano niente. Le classi hanno il vantaggio di poter essere usate con il paradigma ad oggetti (posso fare new Class) ma ogni istanza occuperà più memoria e le classi, convertite in funzioni occuperanno comunque di più.
+
+type invece può essere utile per combinare diversi tipi di dato insieme come union intersections ecc.
+
+## getter & setter
+
+```ts
+get getId() {
+  return this.id;
+}
+
+set setId(newId: number) {
+  this.id = newId;
+}
+
+console.log(getId);
+setId = 123;
+```
+
+Molto spesso si tende ad evitare setter e getter in favore di public per avere un codice più coinciso e leggibile. (ma la soluzione più indicata sarebbero i getter & setter).
