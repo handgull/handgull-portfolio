@@ -1,0 +1,121 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "I'm a starter theme for Astro.build",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">About</h1>
+		<p>
+			I am Andrea Gullì, i've been working in frontend development since 2018, and in 2020, I've
+			decided to dive into mobile development as well. I've been using Flutter since version 1.2.x
+			and Angular since version 6 (naturally, I've kept up with updates since then). Additionally, I
+			have a passion for nutrition, and I've developed <span class="inline-flex"
+				><a
+					class="cactus-link"
+					href="https://zyme-nutrition.netlify.app/en"
+					rel="noopener noreferrer"
+					target="_blank"
+					>ZYME
+				</a></span
+			>, a calorie tracking app available on android and iOS.
+		</p>
+		<h1 class="title">Timeline</h1>
+		<ol class="relative border-s border-gray-200 dark:border-gray-700">
+			<li class="mb-10 ms-4">
+				<div
+					class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"
+				>
+				</div>
+				<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+					>2024 - NOW</time
+				>
+				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Freelancing</h3>
+				<p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+					Senior Developer<br />
+					Technical skills: Flutter, Angular
+				</p>
+			</li>
+			<li class="mb-10 ms-4">
+				<div
+					class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"
+				>
+				</div>
+				<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+					>2023</time
+				>
+				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">ZYME</h3>
+				<p class="text-base font-normal text-gray-500 dark:text-gray-400">
+					ZYME is an app that I care deeply about. To create it, I took a break from my job,
+					becoming a freelancer at that time. Give it a look; I'm very happy with how it turned out.
+				</p>
+				<br />
+				<a
+					target="_blank"
+					href="https://zyme-nutrition.netlify.app/en"
+					class="inline-flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
+					>Learn more <svg
+						class="ms-2 h-3 w-3 rtl:rotate-180"
+						aria-hidden="true"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 14 10"
+					>
+						<path
+							stroke="currentColor"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+					</svg></a
+				>
+			</li>
+			<li class="mb-10 ms-4">
+				<div
+					class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"
+				>
+				</div>
+				<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+					>2022</time
+				>
+				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Boring stuff</h3>
+				<p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+					Flutter developer<br />
+					Technical skills: Flutter
+				</p>
+			</li>
+			<li class="mb-10 ms-4">
+				<div
+					class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"
+				>
+				</div>
+				<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+					>2021</time
+				>
+				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Ennova research</h3>
+				<p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+					Software Engineer<br />
+					Technical skills: Angular, React, Flutter
+				</p>
+			</li>
+			<li class="ms-4">
+				<div
+					class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"
+				>
+				</div>
+				<time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+					>2018</time
+				>
+				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">SOFTECH</h3>
+				<p class="text-base font-normal text-gray-500 dark:text-gray-400">
+					Frontend developer<br />
+					Technical skills: Angular
+				</p>
+			</li>
+		</ol>
+	</div>
+</PageLayout>
