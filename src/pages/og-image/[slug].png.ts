@@ -28,6 +28,7 @@ const ogOptions: SatoriOptions = {
 	],
 };
 
+// TODO qui c'è l'svg vecchia del tema, sarebbe da togliere
 const markup = (title: string, pubDate: string) =>
 	html`<div tw="flex flex-col w-full h-full bg-[#1d1f21] text-[#c9cacc]">
 		<div tw="flex flex-col flex-1 w-full p-10 justify-center">
