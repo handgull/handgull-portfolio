@@ -67,3 +67,4 @@ A me piace molto imparare dai libri. Questi in particolare mi hanno reso un prog
 
 - Design Patterns
 - Pragmatic programmer (da per scontate alcune cose, non va letto da uno che si sta approcciando)
+- Clean architecture (anche questo non da completi novizi)
