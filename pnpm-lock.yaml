@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5fe4a454442a967c7a7cbcb09c62489b64f7d76f
@@ -9,6 +10,8 @@
 >>>>>>> 36dfd0bc6d804301983749553ad6e20da7d75d43
 =======
 >>>>>>> 697c186f36eb261924647fad20accd05c6e1c773
+=======
+>>>>>>> aa97091e13fcc7d6156d1d9004518270ee18f5a4
 lockfileVersion: '6.1'
 
 settings:
@@ -24,10 +27,14 @@ dependencies:
     version: 4.0.9
   '@astrojs/sitemap':
 <<<<<<< HEAD
+<<<<<<< HEAD
     specifier: ^3.1.6
 =======
     specifier: ^3.2.1
 >>>>>>> 697c186f36eb261924647fad20accd05c6e1c773
+=======
+    specifier: ^3.1.6
+>>>>>>> aa97091e13fcc7d6156d1d9004518270ee18f5a4
     version: 3.2.1
   '@astrojs/tailwind':
     specifier: 5.1.0
@@ -59,6 +66,7 @@ devDependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     specifier: ^0.9.3
 =======
     specifier: ^0.9.4
@@ -73,11 +81,16 @@ devDependencies:
     specifier: ^1.2.1
 >>>>>>> 36dfd0bc6d804301983749553ad6e20da7d75d43
 =======
+=======
+>>>>>>> aa97091e13fcc7d6156d1d9004518270ee18f5a4
     specifier: ^0.9.3
     version: 0.9.4(prettier-plugin-astro@0.13.0)(prettier@3.3.3)(typescript@5.6.3)
   '@iconify-json/mdi':
     specifier: ^1.1.64
+<<<<<<< HEAD
 >>>>>>> 697c186f36eb261924647fad20accd05c6e1c773
+=======
+>>>>>>> aa97091e13fcc7d6156d1d9004518270ee18f5a4
     version: 1.2.1
   '@pagefind/default-ui':
     specifier: ^1.0.4
@@ -119,6 +132,7 @@ devDependencies:
     specifier: ^2.0.0
     version: 2.0.0(eslint@8.57.1)(typescript@5.6.3)
   eslint-plugin-import:
+<<<<<<< HEAD
     specifier: ^2.29.1
     version: 2.31.0(@typescript-eslint/parser@7.18.0)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
   eslint-plugin-jsx-a11y:
@@ -135,6 +149,12 @@ devDependencies:
 =======
     specifier: ^6.8.0
 >>>>>>> 697c186f36eb261924647fad20accd05c6e1c773
+=======
+    specifier: ^2.31.0
+    version: 2.31.0(@typescript-eslint/parser@7.18.0)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
+  eslint-plugin-jsx-a11y:
+    specifier: ^6.8.0
+>>>>>>> aa97091e13fcc7d6156d1d9004518270ee18f5a4
     version: 6.10.2(eslint@8.57.1)
   eslint-plugin-markdown:
     specifier: ^5.0.0
@@ -7648,6 +7668,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c86b7ef6378c9bb6795612e0c90ec4e7e900db6c
 =======
 >>>>>>> 5fe4a454442a967c7a7cbcb09c62489b64f7d76f
@@ -7655,3 +7676,5 @@ packages:
 >>>>>>> 36dfd0bc6d804301983749553ad6e20da7d75d43
 =======
 >>>>>>> 697c186f36eb261924647fad20accd05c6e1c773
+=======
+>>>>>>> aa97091e13fcc7d6156d1d9004518270ee18f5a4
