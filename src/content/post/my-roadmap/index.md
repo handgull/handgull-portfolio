@@ -3,6 +3,7 @@ title: "La mia roadmap"
 description: "Quello che farei, e in che ordine lo farei se dimenticassi tutto quello che ho imparato"
 publishDate: "28 Aug 2024"
 tags: ["roadmap", "general"]
+draft: true
 ---
 
 ## Non sono un guru
