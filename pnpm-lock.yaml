@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5fe4a454442a967c7a7cbcb09c62489b64f7d76f
+=======
+>>>>>>> 36dfd0bc6d804301983749553ad6e20da7d75d43
 lockfileVersion: '6.1'
 
 settings:
@@ -47,6 +50,7 @@ dependencies:
 devDependencies:
   '@astrojs/check':
 <<<<<<< HEAD
+<<<<<<< HEAD
     specifier: ^0.9.3
 =======
     specifier: ^0.9.4
@@ -54,6 +58,12 @@ devDependencies:
     version: 0.9.4(prettier-plugin-astro@0.13.0)(prettier@3.3.3)(typescript@5.6.3)
   '@iconify-json/mdi':
     specifier: ^1.1.64
+=======
+    specifier: ^0.9.3
+    version: 0.9.4(prettier-plugin-astro@0.13.0)(prettier@3.3.3)(typescript@5.6.3)
+  '@iconify-json/mdi':
+    specifier: ^1.2.1
+>>>>>>> 36dfd0bc6d804301983749553ad6e20da7d75d43
     version: 1.2.1
   '@pagefind/default-ui':
     specifier: ^1.0.4
@@ -99,10 +109,14 @@ devDependencies:
     version: 2.31.0(@typescript-eslint/parser@7.18.0)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
   eslint-plugin-jsx-a11y:
 <<<<<<< HEAD
+<<<<<<< HEAD
     specifier: ^6.10.2
 =======
     specifier: ^6.8.0
 >>>>>>> 5fe4a454442a967c7a7cbcb09c62489b64f7d76f
+=======
+    specifier: ^6.8.0
+>>>>>>> 36dfd0bc6d804301983749553ad6e20da7d75d43
     version: 6.10.2(eslint@8.57.1)
   eslint-plugin-markdown:
     specifier: ^5.0.0
@@ -7614,6 +7628,9 @@ packages:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c86b7ef6378c9bb6795612e0c90ec4e7e900db6c
 =======
 >>>>>>> 5fe4a454442a967c7a7cbcb09c62489b64f7d76f
+=======
+>>>>>>> 36dfd0bc6d804301983749553ad6e20da7d75d43
