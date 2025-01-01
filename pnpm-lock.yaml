@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5fe4a454442a967c7a7cbcb09c62489b64f7d76f
@@ -18,6 +19,8 @@
 >>>>>>> f73b38a9546f733c37990ae95129c5bf7911e0dd
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
 lockfileVersion: '6.1'
 
 settings:
@@ -29,6 +32,7 @@ dependencies:
     specifier: ^3.1.5
     version: 3.1.9(astro@4.16.8)
   '@astrojs/rss':
+<<<<<<< HEAD
 <<<<<<< HEAD
     specifier: ^4.0.7
     version: 4.0.9
@@ -52,11 +56,18 @@ dependencies:
   '@astrojs/sitemap':
     specifier: ^3.1.6
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+    specifier: ^4.0.7
+    version: 4.0.9
+  '@astrojs/sitemap':
+    specifier: ^3.1.6
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
     version: 3.2.1
   '@astrojs/tailwind':
     specifier: 5.1.0
     version: 5.1.0(astro@4.16.8)(tailwindcss@3.4.14)
   astro:
+<<<<<<< HEAD
     specifier: ^4.15.1
     version: 4.16.8(typescript@5.6.3)
   astro-expressive-code:
@@ -72,6 +83,13 @@ dependencies:
     specifier: ^0.35.3
     version: 0.35.6(astro@4.16.8)
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+    specifier: ^4.16.8
+    version: 4.16.8(typescript@5.6.3)
+  astro-expressive-code:
+    specifier: ^0.35.3
+    version: 0.35.6(astro@4.16.8)
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
   astro-icon:
     specifier: ^1.1.0
     version: 1.1.1
@@ -90,6 +108,7 @@ dependencies:
 
 devDependencies:
   '@astrojs/check':
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,10 +135,13 @@ devDependencies:
 >>>>>>> f73b38a9546f733c37990ae95129c5bf7911e0dd
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
     specifier: ^0.9.3
     version: 0.9.4(prettier-plugin-astro@0.13.0)(prettier@3.3.3)(typescript@5.6.3)
   '@iconify-json/mdi':
     specifier: ^1.1.64
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +152,8 @@ devDependencies:
 >>>>>>> f73b38a9546f733c37990ae95129c5bf7911e0dd
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
     version: 1.2.1
   '@pagefind/default-ui':
     specifier: ^1.0.4
@@ -174,6 +198,7 @@ devDependencies:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     specifier: ^2.29.1
     version: 2.31.0(@typescript-eslint/parser@7.18.0)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
   eslint-plugin-jsx-a11y:
@@ -199,14 +224,19 @@ devDependencies:
 =======
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
     specifier: ^2.29.1
     version: 2.31.0(@typescript-eslint/parser@7.18.0)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
   eslint-plugin-jsx-a11y:
     specifier: ^6.8.0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f73b38a9546f733c37990ae95129c5bf7911e0dd
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
     version: 6.10.2(eslint@8.57.1)
   eslint-plugin-markdown:
     specifier: ^5.0.0
@@ -933,6 +963,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@expressive-code/core@0.35.6:
     resolution: {integrity: sha512-xGqCkmfkgT7lr/rvmfnYdDSeTdCSp1otAHgoFS6wNEeO7wGDPpxdosVqYiIcQ8CfWUABh/pGqWG90q+MV3824A==}
 =======
@@ -943,6 +974,10 @@ packages:
   /@expressive-code/core@0.35.6:
     resolution: {integrity: sha512-xGqCkmfkgT7lr/rvmfnYdDSeTdCSp1otAHgoFS6wNEeO7wGDPpxdosVqYiIcQ8CfWUABh/pGqWG90q+MV3824A==}
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+  /@expressive-code/core@0.35.6:
+    resolution: {integrity: sha512-xGqCkmfkgT7lr/rvmfnYdDSeTdCSp1otAHgoFS6wNEeO7wGDPpxdosVqYiIcQ8CfWUABh/pGqWG90q+MV3824A==}
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
     dependencies:
       '@ctrl/tinycolor': 4.1.0
       hast-util-select: 6.0.3
@@ -957,8 +992,11 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
   /@expressive-code/plugin-frames@0.35.6:
     resolution: {integrity: sha512-CqjSWjDJ3wabMJZfL9ZAzH5UAGKg7KWsf1TBzr4xvUbZvWoBtLA/TboBML0U1Ls8h/4TRCIvR4VEb8dv5+QG3w==}
     dependencies:
@@ -976,6 +1014,7 @@ packages:
     resolution: {integrity: sha512-/k9eWVZSCs+uEKHR++22Uu6eIbHWEciVHbIuD8frT8DlqTtHYaaiwHPncO6KFWnGDz5i/gL7oyl6XmOi/E6GVg==}
     dependencies:
       '@expressive-code/core': 0.35.6
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   /@expressive-code/plugin-frames@0.38.0:
@@ -1002,6 +1041,10 @@ packages:
     dev: false
 
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+    dev: false
+
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
   /@humanwhocodes/config-array@0.13.0:
     resolution: {integrity: sha512-DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==}
     engines: {node: '>=10.10.0'}
@@ -2413,8 +2456,11 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
   /astro-expressive-code@0.35.6(astro@4.16.8):
     resolution: {integrity: sha512-1U4KrvFuodaCV3z4I1bIR16SdhQlPkolGsYTtiANxPZUVv/KitGSCTjzksrkPonn1XuwVqvnwmUUVzTLWngnBA==}
     peerDependencies:
@@ -2422,6 +2468,7 @@ packages:
     dependencies:
       astro: 4.16.8(typescript@5.6.3)
       rehype-expressive-code: 0.35.6
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   /astro-expressive-code@0.38.0(astro@4.16.8):
@@ -2434,6 +2481,8 @@ packages:
 >>>>>>> f73b38a9546f733c37990ae95129c5bf7911e0dd
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
     dev: false
 
   /astro-icon@1.1.1:
@@ -3786,8 +3835,11 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
   /expressive-code@0.35.6:
     resolution: {integrity: sha512-+mx+TPTbMqgo0mL92Xh9QgjW0kSQIsEivMgEcOnaqKqL7qCw8Vkqc5Rg/di7ZYw4aMUSr74VTc+w8GQWu05j1g==}
     dependencies:
@@ -3795,6 +3847,7 @@ packages:
       '@expressive-code/plugin-frames': 0.35.6
       '@expressive-code/plugin-shiki': 0.35.6
       '@expressive-code/plugin-text-markers': 0.35.6
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   /expressive-code@0.38.0:
@@ -3807,6 +3860,8 @@ packages:
 >>>>>>> f73b38a9546f733c37990ae95129c5bf7911e0dd
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
     dev: false
 
   /extend-shallow@2.0.1:
@@ -6339,12 +6394,16 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
   /rehype-expressive-code@0.35.6:
     resolution: {integrity: sha512-pPdE+pRcRw01kxMOwHQjuRxgwlblZt5+wAc3w2aPGgmcnn57wYjn07iKO7zaznDxYVxMYVvYlnL+R3vWFQS4Gw==}
     dependencies:
       expressive-code: 0.35.6
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   /rehype-expressive-code@0.38.0:
@@ -6354,6 +6413,8 @@ packages:
 >>>>>>> f73b38a9546f733c37990ae95129c5bf7911e0dd
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
     dev: false
 
   /rehype-external-links@3.0.0:
@@ -7806,6 +7867,7 @@ packages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c86b7ef6378c9bb6795612e0c90ec4e7e900db6c
 =======
 >>>>>>> 5fe4a454442a967c7a7cbcb09c62489b64f7d76f
@@ -7819,3 +7881,5 @@ packages:
 >>>>>>> f73b38a9546f733c37990ae95129c5bf7911e0dd
 =======
 >>>>>>> db63b46621dab0535b193a354b7cff64f61e5a5f
+=======
+>>>>>>> 8552437421443f7f49330f233270baec2980abcf
