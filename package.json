@@ -25,13 +25,8 @@
 		"sharp": "^0.33.4"
 	},
 	"devDependencies": {
-<<<<<<< HEAD
 		"@astrojs/check": "^0.9.4",
-		"@iconify-json/mdi": "^1.1.64",
-=======
-		"@astrojs/check": "^0.9.3",
 		"@iconify-json/mdi": "^1.2.1",
->>>>>>> 36dfd0bc6d804301983749553ad6e20da7d75d43
 		"@pagefind/default-ui": "^1.0.4",
 		"@resvg/resvg-js": "^2.6.2",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
