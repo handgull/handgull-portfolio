@@ -3,6 +3,7 @@ title: "Le basi di git"
 description: "Una carrellata iniziale per imparare git nel migliore dei modi con tanti approfondimenti"
 publishDate: "8 Mar 2024"
 tags: ["git", "basics", "versioning"]
+draft: true
 ---
 
 ## Introduzione al versioning

@@ -1,7 +1,7 @@
 {
-	"name": "Handgull's portfolio & blog",
+	"name": "Handgull's portfolio",
 	"short_name": "handgull_portfolio",
-	"description": "A codemonkey's portfolio & blog, enjoy!",
+	"description": "A codemonkey's portfolio, enjoy!",
 	"icons": [
 		{
 			"src": "/192x192.png",
