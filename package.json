@@ -44,7 +44,7 @@
 		"eslint-plugin-deprecation": "^3.0.0",
 		"eslint-plugin-markdown": "^5.0.0",
 		"eslint-plugin-perfectionist": "^4.15.0",
-		"eslint-plugin-regexp": "^2.6.0",
+		"eslint-plugin-regexp": "^3.0.0",
 		"eslint-plugin-typescript-sort-keys": "^3.1.0",
 		"mdast-util-to-string": "^4.0.0",
 		"postcss": "^8.4.47",
